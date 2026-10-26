@@ -1,0 +1,16 @@
+{
+  "name": "creator-page-change-monitor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/change_monitor.test.ts",
+    "start": "node --experimental-strip-types src/change_monitor.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
